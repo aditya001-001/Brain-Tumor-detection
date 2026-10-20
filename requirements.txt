@@ -1,0 +1,29 @@
+# Deep Learning framework and neural network API
+tensorflow>=2.15.0
+
+# Numerical computing (pinned below 2.0 for TensorFlow C-API stability)
+numpy>=1.24.0,<2.0.0
+
+# Tabular data manipulation and metrics storage
+pandas>=2.0.0
+
+# Plotting and image visualization
+matplotlib>=3.7.0
+
+# Statistical visualizations (used for heatmaps and confusion matrices)
+seaborn>=0.12.0
+
+# Machine learning utilities and classification metrics
+scikit-learn>=1.3.0
+
+# Image loading, verification, and resizing
+pillow>=9.5.0
+
+# Computer vision processing
+opencv-python>=4.8.0
+
+# Jupyter notebook kernel support inside VS Code
+ipykernel>=6.25.0
+
+# Web application framework for our interactive UI
+streamlit>=1.30.0

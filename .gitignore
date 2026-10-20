@@ -1,0 +1,15 @@
+# Virtual environment (recreatable via requirements.txt)
+.venv/
+
+# Training dataset split (Testing split is preserved for live app demonstration)
+dataset/Training/
+
+# Intermediate model checkpoints (we track brain_tumor_mobilenetv2_full_scratch.keras for out-of-the-box deployment)
+models/brain_tumor_mobilenetv2_best.keras
+
+# Python cache & temporary files
+__pycache__/
+*.pyc
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
